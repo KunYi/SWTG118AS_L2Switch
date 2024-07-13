@@ -22,10 +22,10 @@ The repository merely collects their contributions and adapts them to suit my us
 Need to pull high a line on the PCB
 
 ![PCB_TOP](./pcb/PCB_Front.jpg)
-<p style="text-align: center;">Top of PCB</p>
+**Top of PCB**
 
 ![PCB_BOTTOM](./pcb/PCB_Back.jpg)
-<p style="text-align: center;">Bottom of PCB</p>
+**Bottom of PCB**
 
 ### References
 
