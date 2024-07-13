@@ -19,7 +19,7 @@ The repository merely collects their contributions and adapts them to suit my us
 
 ### Reset Button issues
 
-Need to pull high a line on the PCB
+Need to connect a 10KOhm resistor to pull high on the pink line on the PCB
 
 ![PCB_TOP](./pcb/PCB_Front.jpg)
 <p style="text-align: center;">Top of PCB</p>
