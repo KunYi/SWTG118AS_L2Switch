@@ -11,7 +11,7 @@ The repository merely collects their contributions and adapts them to suit my us
 
 ### Only tested/verified on Fudan FM25Q16A
 
-1. Extract [HRRF_V1.9.1_ZX-SWTGW218AS_0425.bin.zip](./firmwares/HRRF_V1.9.1_ZX-SWTGW218AS_0425.bin.zip) and write it into the flash
+1. download [firmware_full.bin](./firmwares/firmware_full.bin) and write it into the flash
 
 2. Read the UID of the flash first, then modify the parameters of `get_uid()` in [enc.py](./enc.py) and execute the script. You will get an **otp.bin** file for updating the OTP zone of the flash.
 
@@ -19,7 +19,7 @@ The repository merely collects their contributions and adapts them to suit my us
 
 ### Reset Button issues
 
-Need to connect a 10KOhm resistor to pull high on the pink line on the PCB
+A 3.3K or 2.2K Ohm resistor needs to be placed at the R236 position on the PCB to pull the pink line high. R236 is located near the SPI NOR Flash. This resistor (R236) is used for pull-high, while R237 is used for pull-down. In this case, we need to pull the line high to resolve an issue with Reset Button detection
 
 ![PCB_TOP](./pcb/PCB_Front.jpg)
 <p style="text-align: center;">Top of PCB</p>
