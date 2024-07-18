@@ -21,6 +21,9 @@ The repository merely collects their contributions and adapts them to suit my us
 
 A 3.3K or 2.2K Ohm resistor needs to be placed at the R236 position on the PCB to pull the pink line high. R236 is located near the SPI NOR Flash. This resistor (R236) is used for pull-high, while R237 is used for pull-down. In this case, we need to pull the line high to resolve an issue with Reset Button detection
 
+![Modify Pull High](./pcb/Modify.jpg)
+avoid reset button issues, need to pull-high
+
 ![PCB_TOP](./pcb/PCB_Front.jpg)
 <p style="text-align: center;">Top of PCB</p>
 
